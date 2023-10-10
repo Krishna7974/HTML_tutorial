@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            background-color: blue;
+        }
+        .cont{
+            --custom-higth:300px;
+            --kick:400px;
+            background-color: beige;
+            height:var(--kick);
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: pink;
+            border: 2px solid ;
+            width: 200px;
+            height: 200px;
+           /* box-shadow:  -10px -10px 30px 10px red,10px 10px 30px 10px blue;  */
+           box-shadow: 8px 8px 8px rgb(205, 109, 6),16px 16px 8px white,24px 24px 8px green;;
+        }
+        #hello{
+            text-shadow: 4px 2px 3px rgb(205, 109, 6),8px 4px 3px white,12px 6px 3px green;
+        }
+        .cla{
+            height: 100px;
+            width: 100px;
+            border: 2px solid ;
+            border-radius: 100%;
+            background-color: red;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            <h1 id="hello">hello world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore non autem, similique libero optio? Asperiores quam laudantium ipsa non.</p>
+            <div class="cla"></div>
+        </div>
+    </div>
+</body>
+</html>

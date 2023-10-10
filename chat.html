@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form with Radio Buttons, Image, and Video</title>
+    <style>
+        /* Style for the form container */
+        .form-container {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Style for the radio buttons */
+        .radio-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .radio-container label {
+            margin-right: 20px;
+        }
+
+        /* Style for the image */
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for the video */
+        .video-container {
+            margin-bottom: 20px;
+        }
+
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Form with Radio Buttons, Image, and Video</h2>
+        
+        <!-- Radio Buttons -->
+        <div class="radio-container">
+            <label>
+                <input type="radio" name="choice" value="option1"> Option 1
+            </label>
+            <label>
+                <input type="radio" name="choice" value="option2"> Option 2
+            </label>
+        </div>
+        
+        <!-- Image -->
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300" alt="Sample Image">
+        </div>
+        
+        <!-- Video -->
+        <div class="video-container">
+            <video controls>
+                <source src="https://www.example.com/sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
